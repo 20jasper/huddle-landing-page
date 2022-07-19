@@ -68,6 +68,10 @@ p, h1, h2, h3, h4, h5, h6 {
 	--very-pale-blue: hsl(207, 100%, 98%);
 }
 
+html{
+	font-size: 67.5%;
+}
+
 body{
 	font-family: 'Open Sans', sans-serif;
 }
