@@ -49,6 +49,29 @@ p, h1, h2, h3, h4, h5, h6 {
 /*
   9. Create a root stacking context
 */
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
 #root, #__next {
   isolation: isolate;
+}
+
+:root{
+	--pink: hsl(322, 100%, 66%);
+	--light-pink: hsl(321, 100%, 78%);
+	--light-red: hsl(0, 100%, 63%);
+
+	--very-dark-cyan: hsl(192, 100%, 9%);
+	--very-pale-blue: hsl(207, 100%, 98%);
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	font-family: 'Poppins', sans-serif;
 }
