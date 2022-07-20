@@ -1,11 +1,12 @@
 import './index.css';
+import { Header } from './components/Header';
 
 const mobileBreakPoint = "375px"
 
 function App() {
 	return (
 		<div className="App">
-			<h1>hi</h1>
+			<Header />
 		</div>
 	);
 }

@@ -77,6 +77,33 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* Header */
+
 header{
 	font-family: 'Poppins', sans-serif;
+	display: flex;
+	padding: 2rem;
+	justify-content: space-between;
+	align-items: center;
 }
+
+	.header--img{
+		width: 10.7rem;
+	}
+
+	.header--button{
+		color: var(--light-pink);
+		border-radius: 3rem;
+		background-color: white;
+		padding: .3rem 1.4rem;
+		align-items: center;
+		border: .1rem solid var(--light-pink);
+		font-size: .7rem;
+	}
+
+		.header--button:focus, 
+		.header--button:active{
+			color: var(--light-pink);
+			border-radius: .3rem;
+			background-color: white;
+		}
