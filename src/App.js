@@ -1,5 +1,7 @@
 import './index.css';
 
+const mobileBreakPoint = "375px"
+
 function App() {
 	return (
 		<div className="App">
