@@ -60,17 +60,19 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 :root{
-	--pink: hsl(322, 100%, 66%);
-	--light-pink: hsl(321, 100%, 78%);
-	--light-red: hsl(0, 100%, 63%);
-
-	--very-dark-cyan: hsl(192, 100%, 9%);
-	--very-pale-blue: hsl(207, 100%, 98%);
+	--primary-accent: hsl(322, 100%, 66%);
+	--primary-accent-active: hsl(321, 100%, 78%);
+	--primary-background: white;
+	
+	--section-background: hsl(207, 100%, 98%);
+	
+	--footer-input-error: hsl(0, 100%, 63%);
+	--footer-background: hsl(192, 100%, 9%);
 }
 
 html{
 	font-size: 67.5%;
-	background-color: white;
+	background-color: var(--primary-background);
 }
 
 body{
@@ -92,18 +94,15 @@ header{
 	}
 
 	.header--button{
-		color: var(--light-pink);
+		color: var(--primary-accent);
 		border-radius: 3rem;
-		background-color: white;
+		background-color: var(--primary-background);
 		padding: .3rem 1.4rem;
 		align-items: center;
-		border: .1rem solid var(--light-pink);
+		border: .1rem solid var(--primary-accent);
 		font-size: .7rem;
 	}
 
-		.header--button:focus, 
-		.header--button:active{
-			color: var(--light-pink);
-			border-radius: .3rem;
-			background-color: white;
+		.header--button:hover{
+			color: var(--primary-accent-active);
 		}
