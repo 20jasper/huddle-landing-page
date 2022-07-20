@@ -79,12 +79,28 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* general button styles */
+
+.main--button, .footer--button{
+	color: var(--primary-background);
+	background-color: var(--primary-accent);
+	border: .1rem solid var(--primary-accent);
+	padding: .8rem 1rem;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+	.main--button:hover, .footer--button:hover{
+		background-color: var(--primary-accent-active);
+	}
+
 /* Header */
 
 header{
 	font-family: 'Poppins', sans-serif;
-	display: flex;
+	font-weight: 700;
 	padding: 2rem;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -95,14 +111,41 @@ header{
 
 	.header--button{
 		color: var(--primary-accent);
-		border-radius: 3rem;
 		background-color: var(--primary-background);
+		border: .1rem solid var(--primary-accent);
+		border-radius: 3rem;
 		padding: .3rem 1.4rem;
 		align-items: center;
-		border: .1rem solid var(--primary-accent);
 		font-size: .7rem;
 	}
 
 		.header--button:hover{
 			color: var(--primary-accent-active);
 		}
+
+/* Main */
+
+main{
+	padding: 0 3.5rem;
+	text-align: center;
+	margin-top: 5.7rem;
+}
+
+	.main--button{
+		width: 60%;
+		border-radius: 5rem;
+		padding: .8rem 1rem;
+		font-size: 1rem;
+		font-weight: 600;
+		margin-top: 4.6rem;
+	}
+
+/* footer */
+
+footer{
+	padding: 0 3.5rem;
+}
+
+
+
+
