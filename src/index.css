@@ -79,6 +79,18 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+
+/* general styles */
+
+header{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+p{
+	font-size: 1.3rem;
+}
+
 /* general button styles */
 
 .main--button, .footer--button{
@@ -96,20 +108,19 @@ body{
 
 /* Header */
 
-header{
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
+.nav{
 	padding: 2rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-	.header--img{
+
+	.nav--img{
 		width: 10.7rem;
 	}
 
-	.header--button{
+	.nav--button{
 		color: var(--primary-accent);
 		background-color: var(--primary-background);
 		border: .1rem solid var(--primary-accent);
@@ -119,7 +130,7 @@ header{
 		font-size: .7rem;
 	}
 
-		.header--button:hover{
+		.nav--button:hover{
 			color: var(--primary-accent-active);
 		}
 
