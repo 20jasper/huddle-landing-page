@@ -217,9 +217,11 @@ main{
 	.contentContainer{
 		padding: 0 3.5rem;
 	}
+
 	.contentContainer:nth-child(odd){
 		background-color: var(--section-background);
 	}
+	
 /* footer */
 
 footer{
