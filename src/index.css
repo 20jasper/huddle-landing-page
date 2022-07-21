@@ -77,6 +77,7 @@ html{
 
 body{
 	font-family: 'Open Sans', sans-serif;
+	align-items: center;
 }
 
 
@@ -88,7 +89,7 @@ header{
 }
 
 p{
-	font-size: 1.3rem;
+	font-size: 1.25rem;
 	margin-top: 1.6rem;
 }
 
@@ -100,9 +101,23 @@ h2{
 	font-size: 2rem;
 }
 
+h3{
+	font-size: 1.8rem;
+	margin-top: 6.6rem;
+}
+
 span{
 	font-size: 1.2rem;
 }
+
+/* textContainer */
+.textContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
 
 /* general button styles */
 
@@ -125,7 +140,6 @@ span{
 	padding: 2rem;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 
@@ -188,18 +202,24 @@ main{
 			.statistics--img{
 				width: 2.5rem;
 			}
-			
-			.statistics--textContainer{
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-			}
 
 			.statistics--h2{
 				font-size: 4.8rem;
 				font-family: 'Open Sans', sans-serif;
 			}
 
+	/* Content */
+	
+	.content--img{
+		padding: 1rem;
+	}
+	
+	.contentContainer{
+		padding: 0 3.5rem;
+	}
+	.contentContainer:nth-child(odd){
+		background-color: var(--section-background);
+	}
 /* footer */
 
 footer{
